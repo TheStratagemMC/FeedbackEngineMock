@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Lato' !important;
+    background: #3498db !important;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.login-body{
+    width: 550px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30%;
+    text-align: center;
+}
+.login-body h2{
+    color: #ecf0f1;
+    font-size: 1.9em;
+    font-weight: 100;
+}
+.login-body p{
+    font-weight: 300;
+    color: #efefef;
+}
+.bigbutton a,input[type=submit],button{
+    border: none;
+    min-width: 80px;
+    color: #efefef;
+    font-weight: 300;
+    font-family: cursive, 'Lato';
+    height: 36px;
+    background: #8e44ad;
+    top: -3px;
+    position: relative;
+    
+}
+.rewards-list a{
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+.rewards-list sub{
+    font-size: 0.8em;
+    padding: 10px;
+}
+.rewards-list p{
+    margin-top: 3px;
+    
+}
+.rewards-list li{
+
+}
+
+.header-nav{
+    color: #efefef;
+    font-weight: 300;
+    padding-left: 15px;   
+}
+.header-nav h1{
+    font-size: 1.3em !important;   
+}
+.content{
+    position: relative;
+    width: 100%;
+    top: 50px;
+    padding-top: 10px;
+}
+.dContainer{
+    width: 95%;
+    margin: 0 auto;
+    background: #bdc3c7;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.dSmall{
+    width: 90% !important;   
+}
+.dContainer h1{
+    font-size: 2.4em;
+}
+.dContainer h2{
+    font-size: 1.6em;   
+}
+
+.dContainer p{
+    padding-left: 15px;   
+}
+
+.dContainer img{
+    text-align: center;   
+    margin: 0 auto;
+}
+
+.header-nav .fill-height{
+    line-height: 50px;
+    display: inline;
+}
+.user-nav{
+    height: 100%;   
+    float: right;
+    width: 50%;
+}
+.header-nav{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+h3.fill-height{
+    line-height: 100%;
+}
+.user-nav img{
+    border-radius: 50%;
+    
+}
+.user-nav .dropdown{
+    height: 100%;
+}
+
+button.transparent-button{
+    background-color: rgba(0,0,0,0.0);
+    text-align: center;
+    height: 100%;
+    line-height: 100%;
+}
+.bigbutton2 a,input[type=submit], button{
+    border: none;
+    width: 80px;
+    color: #efefef;
+    font-weight: 300;
+    font-family: cursive, 'Lato';
+    height: 36px;
+    background: #e74c3c;
+    top: -3px;
+    position: relative;
+    
+}
+input[type=text]{
+    width: 250px;
+    height: 36px;
+    
+    line-height: 30px;
+    background: #bdc3c7;
+    border: none;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: cursive;
+}
+.l-notification{
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 40%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 700;
+    background: #e74c3c;
+    color: #efefef;
+}
+
+span.emphasized{
+    font-weight: 300;
+}
+.headerbar{
+    background: #2980b9;
+    color: #85bfde;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+}
+
+.headerbar h1{
+    font-size: 4.3em;
+    top: 0;
+    margin-top: 0;
+    
+    line-height: 125px !important;
+    font-weight: 100;
+    font-family: 'Lato';
+    
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    background: #2980b9;
+}

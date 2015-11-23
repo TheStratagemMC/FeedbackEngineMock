@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="loginpage.js"></script>
+</head>
+<body>
+<div class="headerbar">
+    <h1>Player Panel</h1>
+</div>
+    <div class="l-notification">
+        <h1>Oops! Player requested is not online.</h1>
+    </div>
+    <div class="login-body">
+    <form>
+        <h2>Enter your Minecraft username.</h2>
+        <br/>
+        <input type="text" placeholder="Username" name="username">
+        
+        <input type="submit" class="bigbutton" value="Proceed" onclick="doLoginSpinner();">
+    </form>
+    </div>
+    
+</body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+        
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,900,300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="loginpage.js"></script>
+    
+
+</head>
+<body>
+<div class="headerbar">
+    <h1>Player Panel</h1>
+</div>
+    <div class="login-body">
+    <form>
+        <h2>Great! Now verify that you are <span class="emphasized" name="username">{NAME}</span>.</h2>
+
+        <br />
+
+        <input type="text" placeholder="Verification Code" name="code">
+        
+        <input type="submit" class="bigbutton2" value="Proceed" onclick="doLoginSpinner();">
+        <br />
+        <p>A code was sent to you in-game.</p>
+    </form>
+    </div>
+    
+</body>
